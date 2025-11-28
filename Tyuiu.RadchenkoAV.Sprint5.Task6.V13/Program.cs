@@ -1,0 +1,27 @@
+﻿using Tyuiu.RadchenkoAV.Sprint5.Task6.V13.Lib;
+DataService ds = new DataService();
+Console.Title = "Спринт #5 | Выполнил: РадченкоАВ | РППБ -25-1";
+
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #6                                                               *");
+Console.WriteLine("* Тема: Обработка текстовых файлов                                        *");
+Console.WriteLine("* Задание #6                                                              *");
+Console.WriteLine("* Вариант #13                                                             *");
+Console.WriteLine("* Выполнил: РадченкоАВ | РППБ -25-1                                       *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine(@"* Дан файл С:\DataSprint5\InPutDataFileTask6V13.txt в котором есть       *");
+Console.WriteLine("* набор символьных данных. Найти количество удвоенных букв \"сс\" в заданной*");
+Console.WriteLine("* строке.                                                                 *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+string path = @"C:\DataSprint5\InPutDataFileTask6V13.txt";
+Console.WriteLine("Данные находятся в файле: " + path);
+
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("В строке находится " + ds.LoadFromDataFile(path) + " удвоенных букв \"с\"");
+Console.ReadKey();
