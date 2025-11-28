@@ -1,7 +1,6 @@
 ﻿using Tyuiu.RadchenkoAV.Sprint5.Task6.V13.Lib;
 DataService ds = new DataService();
 Console.Title = "Спринт #5 | Выполнил: РадченкоАВ | РППБ -25-1";
-
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #6                                                               *");
 Console.WriteLine("* Тема: Обработка текстовых файлов                                        *");
